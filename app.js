@@ -46,11 +46,8 @@ app.post("/", function(req, res) {
         });
 
         item.save();
-
-        res.redirect("/");
     }
-
-
+    res.redirect("/");
 });
 
 app.post("/delete", function(req, res) {
